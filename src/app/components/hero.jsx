@@ -14,7 +14,7 @@ const Hero = () => {
         {/* HERO PAGE START */}
         <div
           className="lg:flex lg:items-center lg:justify-center max-w-7xl mx-auto 
-          space-x-4 lg:mt-10 mt-24"
+          space-x-4 lg:mt-20 mt-24"
         >
           <h1
             className="  text-white lg:text-[7vmin] 
