@@ -1,7 +1,7 @@
 "use client";
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
-import TabButton from "./TabButton";
+import TabButton from "./TabButton.jsx";
 
 const TAB_DATA = [
   {
@@ -51,6 +51,7 @@ const AboutSection = () => {
         width={500} 
         height={500} 
         className="rounded-xl"/>
+
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold 
           text-transparent bg-clip-text text-[10vmin]
