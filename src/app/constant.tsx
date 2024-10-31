@@ -1,4 +1,3 @@
-
 import Link from 'next/link'
 import { title } from 'process'
 import React from 'react'
@@ -11,27 +10,22 @@ interface Inavitem{
 export const navItem:Inavitem[]=[
     {
         
-        title:"HOME",
+        title:"Home",
         link: "/"
     },
     {
         
-        title:"CATALOGUE",
-        link: "/catalogue"
+        title:"About",
+        link: "/about"
     },
     {
-        title:"FASHION",
-        link:"/fashion"
+        title:"ContactUs",
+        link:"/contact-us"
     },
     {
-        title:"FAVORITE",
-        link:"/favorite"
+        title:"Projects",
+        link:"/projects"
     },
-    {
-        title:"LIFESTYLE",
-        link:"/lifestyle"
-    }
-    
     
 ]
   

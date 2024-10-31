@@ -1,20 +1,21 @@
 import  Navbar  from "./components/navbar";
 import Hero from "./components/hero";
 import Footer from "./components/footer";
-import NewArival from "./components/new-arival";
-import Paydaynow from "./components/paydaynow";
-import YoungsFavorite from "./components/youngsFavorite";
-import Downloadapp from "./components/downloadapp";
+import BackgroundVideo from "./components/background-video";
+import AboutSection from "./components/aboutSection"
+
+
 export default function Home() {
   return (
 
 <div>
+  <BackgroundVideo/>
   <Navbar/>
   <Hero/>
-  <NewArival/>
-  <Paydaynow/>
-  <YoungsFavorite/>
-  <Downloadapp/>
+  <AboutSection/>
+
+  
+
   {/*File base routing system*/}
 </div>
 

@@ -33,7 +33,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/hooks/hooks.tsx"
-  ],
+, "src/app/components/hero.jsx", "src/app/components/aboutSection.jsx"  ],
   "exclude": [
     "node_modules"
   ]
