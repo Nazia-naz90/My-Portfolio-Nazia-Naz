@@ -7,8 +7,8 @@ const Footer = () => {
       <section
         className=" 
             lg:flex flex-col justify-center items-center
-             max-w-7xl lg:h-[20%] lg:p-20 p-16
-            mx-auto mt-0  lg:space-x-10 lg:gap-y-10"
+             max-w-7xl lg:h-[20%] lg:p-20 p-10
+            lg:mx-auto mt-0  lg:space-x-10 lg:gap-y-10"
       >
         <div
           className="lg:flex flex-col items-center 

@@ -29,7 +29,7 @@ const About = () => {
           lg:leading-10 lg:font-bold 
           font-serif lg:tracking-widest"
           >
-            I'm a Front-End Developer with a passion for creating visually
+            I &apos; m a Front-End Developer with a passion for creating visually
             stunning and highly interactive web applications. My journey into
             the world of web development started with a curiosity for how
             websites work and has evolved into a deep love for coding and
@@ -73,7 +73,7 @@ const About = () => {
             bg-gradient-to-r from-purple-400 to-pink-600 text-[7vmin] text-center">Javascript & TypeScript</h2>
           <p className="text-white  lg:text-[20] lg:px-10 lg:font-bold
           lg:leading-10 lg:tracking-widest mt-5">
-            JavaScript is my playground. Whether it's adding dynamic features to
+            JavaScript is my playground. Whether it &apos; s adding dynamic features to
             a web page or building complex applications, I enjoy the power and
             flexibility JavaScript offers. TypeScript brings type safety and
             scalability to my projects, making development smoother and more
@@ -129,7 +129,7 @@ const About = () => {
             bg-gradient-to-r from-purple-400 to-pink-600 text-[7vmin] text-center">Deployment</h2>
           <p className="text-white  lg:text-[20] lg:px-10 lg:font-bold
           lg:leading-10 lg:tracking-widest mt-5">
-            Getting projects live is an essential part of development. I'm
+            Getting projects live is an essential part of development. I &apos; m
             skilled in deploying applications to various platforms, ensuring
             they run smoothly and efficiently in production.
           </p>
@@ -145,10 +145,10 @@ const About = () => {
           lg:leading-10 lg:tracking-widest">
             I believe in the power of the web to connect people, share
             knowledge, and create experiences. Every project I work on is a new
-            opportunity to push the boundaries of what's possible and to create
+            opportunity to push the boundaries of what &apos; s possible and to create
             something that users will love. I strive to write clean,
             maintainable code and design interfaces that are intuitive and
-            delightful to use. When I'm not coding, you'll find me exploring the
+            delightful to use. When I &apos; m not coding, you &apos; ll find me exploring the
             latest tech trends, contributing to open-source projects.
           </p>
           </div>

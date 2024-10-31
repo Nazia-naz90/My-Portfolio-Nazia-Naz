@@ -9,12 +9,12 @@ const Hero = () => {
     <>
       <main
         className="flex flex-col items-center justify-center max-w-7xl 
-      min-h-screen container mx-auto"
+        min-h-screen container mx-auto"
       >
         {/* HERO PAGE START */}
         <div
           className="lg:flex lg:items-center lg:justify-center max-w-7xl mx-auto 
-          space-x-4 mt-10"
+          space-x-4 lg:mt-10 mt-24"
         >
           <h1
             className="  text-white lg:text-[7vmin] 
@@ -89,7 +89,7 @@ const Hero = () => {
         <div
           className="lg:flex  justify-center items-center
         lg:w-[100vw] w-[100%] lg:h-[100vh] h-[100%] mx-auto 
-        lg:m-auto  lg:px-40  mt-5 
+        lg:m-auto  lg:px-40 lg:mt-10 mt-24
         "
         >
           {/*My Image*/}
@@ -166,7 +166,8 @@ const Hero = () => {
 
             <div
             className="flex items-center justify-center
-           mt-10 mb-10 h-[60vh] w-[50vw] container"
+           lg:mt-10 lg:mb-10 ml-20 mt-5 mb-5
+           h-[60vh] w-[50vw] container"
             >
               <Image
                 src={"/images/hero-image.png"}

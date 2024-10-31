@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar"
 import Image from "next/image";
 import BackgroundVideo from "../components/background-video"
-import { Main } from "next/document";
+
 
 const ContactUs = () => {
     return(
