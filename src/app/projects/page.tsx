@@ -51,8 +51,8 @@ const ProjectsSection = () => {
             title="My Portfolio "
             description="Project 4 Using HTML Tailwind-css Next.Js"
             imgUrl="/images/My-portfolio.jpg"
-            vercelUrl=""
-            gitUrl=""
+            vercelUrl="https://my-portfolio-nazia-naz-igx6.vercel.app/"
+            gitUrl="https://github.com/Nazia-naz90/My-Portfolio-Nazia-Naz.git"
           />
         </div>
       </div>
