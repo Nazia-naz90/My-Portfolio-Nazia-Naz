@@ -4,15 +4,30 @@ const BackgroundVideo = () => {
   return (
     <div>
       {/* BACKGROUND VIDEO CLIP */}
-
-      <div
-        className="fixed top-0 left-0 w-[100%] h-[100%] 
-        overflow-hidden
-        z-[-1] max-w-7xl 
-         
-      "
+      <div className="flex
+      lg:max-w-7xl container lg:mx-auto">
+        <div
+        className="flex  items-center justify-center  
+        min-h-screen lg:container sm:container 
+        md:container lg:mx-auto 
+        fixed top-0 left-0 lg:w-[100vw] lg:h-[100vh] 
+        overflow-hidden object-cover
+        z-[-1] lg:max-w-7xl max-w-screen-lg "
       >
-        <video
+        <Image src={"/images/bg-image.jpg"}
+        alt="bg-image"
+        width={1000}
+        height={1000}
+        className="lg:w-[500vw]
+        lg:h-[100vh]
+        min-h-screen
+        max-w-screen-lg
+        lg:max-w-7xl
+        object-cover
+        justify-items-center"></Image>
+        
+      </div>
+      {/* <video
           autoPlay
           loop
           muted
@@ -37,8 +52,9 @@ const BackgroundVideo = () => {
           justify-center"
         >
           <source src="/images/bg-video.mp4" type="video/mp4" />
-        </video>
+        </video> */}
       </div>
+    
     </div>
   );
 };

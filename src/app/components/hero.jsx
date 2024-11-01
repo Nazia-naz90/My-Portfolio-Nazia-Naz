@@ -8,13 +8,13 @@ const Hero = () => {
   return (
     <>
       <main
-        className="flex flex-col items-center justify-center max-w-7xl 
+        className="flex flex-col items-center justify-center lg:max-w-7xl 
         min-h-screen container mx-auto"
       >
         {/* HERO PAGE START */}
         <div
-          className="lg:flex lg:items-center lg:justify-center max-w-7xl mx-auto 
-          space-x-4 lg:mt-20 mt-24"
+          className="lg:flex lg:items-center lg:justify-center lg:max-w-7xl mx-auto 
+          space-x-4 lg:mt-20 mt-24 container"
         >
           <h1
             className="  text-white lg:text-[7vmin] 
@@ -87,17 +87,16 @@ const Hero = () => {
         {/* SECOND SESSION */}
 
         <div
-          className="lg:flex  justify-center items-center
-        lg:w-[100vw] w-[100%] lg:h-[100vh] h-[100%] mx-auto 
-        lg:m-auto  lg:px-40 lg:mt-10 mt-24
-        "
+          className="lg:flex justify-center items-center
+         w-[100%]  h-[100%] mx-auto 
+        lg:m-auto lg:px-40 lg:mt-10 mt-24 container
+        lg:max-w-7xl"
         >
           {/*My Image*/}
           <div className="lg:flex items-center justify-center ">
             {/* BUTTON COLUMN 1 */}
             <div
-              className="flex flex-col justify-center items-center
-            space-y-20"
+              className="flex flex-col justify-center items-center space-y-20 container"
             >
               {/* HTML BUTTON */}
               <button
@@ -166,7 +165,7 @@ const Hero = () => {
 
             <div
             className="flex items-center justify-center
-           lg:mt-10 lg:mb-10 ml-20 mt-5 mb-5
+           lg:mt-10 mt-5 lg:mb-10 mb-5 lg:ml-20 mx-auto
            h-[60vh] w-[50vw] container"
             >
               <Image
@@ -182,8 +181,7 @@ const Hero = () => {
 
             {/* BUTTON COLUMN 3*/}
             <div
-              className="flex flex-col justify-center items-center
-            space-y-20"
+              className="flex flex-col justify-center items-center space-y-20 container"
             >
               {/* NEXT JS BUTTON */}
               <button

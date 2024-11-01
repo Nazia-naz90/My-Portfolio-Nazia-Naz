@@ -10,9 +10,10 @@ const ContactUs = () => {
     <Navbar/>
     <BackgroundVideo/>
     <div >
-    <h2 className="  flex items-center justify-center text-[7vmin]
+    <h2 className="  flex items-center justify-center 
+    text-[7vmin]
     text-center text-white 
-    p-[30px]
+    p-[30px] lg:mt-10 mt-20
     font-serif">Contact Us </h2>
     <div className="max-w-[62%]
     my-[25px] mx-[auto]">

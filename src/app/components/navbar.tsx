@@ -11,8 +11,9 @@ export default function Navbar() {
   
   return (
     <header className="lg:h-[75px] h-[64px] bg-black drop-shadow-[0_0px_3px_rgba(117,195,16,0.5)] lg:max-w-7xl  lg:mx-auto lg:relative 
-      container  fixed">
-      <div className="flex items-center justify-evenly gap-20 h-full px-4 sm:px-6 md:px-8 lg:mx-auto xl:px-4 max-w-7x1">
+    container  fixed">
+
+      <div className="flex items-center justify-evenly gap-20 h-full px-4 sm:px-6 md:px-8 lg:mx-auto xl:px-4 lg:max-w-7x1">
         <div className="lg:flex sm:flex-row gap-2 ">
           <Image
             src={"/images/Logo.png"}
