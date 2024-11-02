@@ -1,15 +1,16 @@
 import  Navbar  from "./components/navbar";
 import Hero from "./components/hero";
 import Footer from "./components/footer";
-import BackgroundVideo from "./components/background-video";
+import BackgroundVideo from "./components/backgroundImage";
 import AboutSection from "./components/aboutSection"
+import BackgroundImage from "./components/backgroundImage";
 
 
 export default function Home() {
   return (
 
 <div>
-  <BackgroundVideo/>
+  <BackgroundImage/>
   <Navbar/>
   <Hero/>
   <AboutSection/>

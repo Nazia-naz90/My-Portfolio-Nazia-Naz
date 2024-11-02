@@ -1,5 +1,5 @@
 "use client";
-import BackgroundVideo from "../components/background-video";
+import BackgroundVideo from "../components/backgroundImage";
 import Navbar from "../components/navbar";
 import ProjectCard from "../components/projectCard";
 

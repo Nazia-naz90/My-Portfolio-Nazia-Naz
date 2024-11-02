@@ -3,31 +3,7 @@
 @tailwind utilities;
 
 
-
-
-
-
-/* media query */
-
-@media (max-width: 768px) {
-    .video {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .video {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (min-width: 1025px) {
-    .video {
-        width: 100%;
-        height: auto;
-    }
-}
-
-
+/* body{
+    background-color: rgba(rgb(155, 108, 108), rgb(205, 219, 205), 
+    rgb(187, 187, 210), alpha);
+} */
