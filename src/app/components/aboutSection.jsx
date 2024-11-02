@@ -45,8 +45,9 @@ const AboutSection = () => {
 
   return (
     <section  id="about">
-      <div className="text-white 
-     lg:max-w-7xl container lg:mx-auto" >
+      <div className="text-white max-w-7xl sm:max-w-7xl
+      md:max-w-7xl lg:max-w-7xl xl:max-w-7xl xl2:max-w-7xl
+      container lg:mx-auto" >
       <div className="lg:flex  gap-8 items-center justify-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about-image.png" 
         alt="Image"

@@ -5,7 +5,9 @@ const BackgroundVideo = () => {
     <div>
       {/* BACKGROUND VIDEO CLIP */}
       <div className="flex
-      lg:max-w-7xl container lg:mx-auto">
+      max-w-7xl sm:max-w-7xl md:max-w-7xl
+      lg:max-w-7xl xl:max-w-7xl xl2:max-w-7xl
+      container lg:mx-auto">
         <div
         className="flex  items-center justify-center  
         min-h-screen lg:container sm:container 
@@ -18,11 +20,22 @@ const BackgroundVideo = () => {
         alt="bg-image"
         width={1000}
         height={1000}
-        className="lg:w-[500vw]
+        className="
+        w-[500vw]
+        sm:[500vw]
+        lg:w-[500vw]
+        xl:w-[500vw]
+        xl2:w-[500vw]
+        h-[100vh]
+        sm:h-[100vh]
+        md:h-[100vh]
         lg:h-[100vh]
+        xl:h-[100vh]
+        xl2:h-[100vh]
         min-h-screen
         max-w-screen-lg
         lg:max-w-7xl
+        xl:max-w-7xl
         object-cover
         justify-items-center"></Image>
         

@@ -8,12 +8,13 @@ const Hero = () => {
   return (
     <>
       <main
-        className="flex flex-col items-center justify-center lg:max-w-7xl 
-        min-h-screen container mx-auto"
+        className="flex flex-col items-center lg:items-center justify-center  lg:justify-center max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-full 2xl:max-w-full
+        container mx-auto sm:mx-auto md:mx-full lg:mx-auto xl:mx-auto 2xl:mx-auto"
       >
         {/* HERO PAGE START */}
         <div
-          className="lg:flex lg:items-center lg:justify-center lg:max-w-7xl mx-auto 
+          className="flex lg:flex items-center lg:items-center justify-center lg:justify-center 
+          max-w-7xl sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full mx-auto lg:mx-auto xl:mx-auto 
           space-x-4 lg:mt-20 mt-24 container"
         >
           <h1
