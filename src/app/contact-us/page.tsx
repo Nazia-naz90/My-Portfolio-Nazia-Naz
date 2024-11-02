@@ -11,11 +11,12 @@ const ContactUs = () => {
       my-auto sm:my-auto md:my-auto lg:my-auto xl:my-auto
       container 
              ">
-          <h2
-            className="  flex items-center justify-center 
-    text-[7vmin] sm:text-[3vmin] md:text-[4vmin] lg:text-[6vmin] xl:text-[7xl]
+    <h2
+    className="  flex items-center justify-center 
+    text-[7vmin] sm:text-[3vmin] md:text-[4vmin] lg:text-[6vmin] 
+    xl:text-[7xl]
     text-center sm:text-center md:text-center lg:text-center xl:text-center
-     text-white container
+    text-white container mx-auto sm:mx-auto md:mx-auto lg:mx-auto ]xl:mx-auto
     p-[30px] lg:mt-10 mt-20
     font-serif"
           >
