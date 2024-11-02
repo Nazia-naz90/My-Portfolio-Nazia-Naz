@@ -1,13 +1,10 @@
 "use client";
-import BackgroundVideo from "../components/backgroundImage";
-import Navbar from "../components/navbar";
 import ProjectCard from "../components/projectCard";
 
 const ProjectsSection = () => {
   return (
     <div>
-      <Navbar />
-      <BackgroundVideo />
+
       <div className="flex items-center justify-center">
         <h1 className="text-white font-serif
         font-bold text-[7vmin] mt-24 ">My Projects</h1>

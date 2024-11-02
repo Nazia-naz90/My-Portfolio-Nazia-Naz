@@ -1,16 +1,18 @@
 import React from "react";
-import Navbar from "../components/navbar";
 import Image from "next/image";
-import BackgroundVideo from "../components/backgroundImage";
 const About = () => {
   return (
     <>
       <div>
-        <Navbar />
-        <BackgroundVideo />
+
         <div
-          className="lg:flex lg:max-w-7xl mx-auto 
-     justify-center items-center lg:gap-x-24 
+     className="lg:flex max-w-7xl sm:max-w-7xl md:max-w-7xl
+     lg:max-w-7xl xl:max-w-7xl mx-auto sm:mx-auto md:mx:auto
+     lg:mx-auto xl:mx-auto 
+     justify-center sm:justify-center md:justify-center
+     lg:justify-center xl:justify-center
+     items-center sm:items-center lg:items-center xl:items-center
+     lg:gap-x-24 
      lg:p-10 min-h-screen 
      container "
         >

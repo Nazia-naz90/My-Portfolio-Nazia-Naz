@@ -56,8 +56,9 @@ const AboutSection = () => {
         className="rounded-xl"/>
 
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold 
-          text-transparent bg-clip-text text-[10vmin]
+          <h2 className="text-4xl sm:text-[20px] md:text-[30px]
+          lg:text-[7vmin] xl:text-[4vmin] font-bold 
+          text-transparent bg-clip-text 
           bg-gradient-to-r from-purple-400 to-pink-600">About Me</h2>
           <p className="text-base lg:text-lg mt-10">
             I am a Front End developer with a passion for creating

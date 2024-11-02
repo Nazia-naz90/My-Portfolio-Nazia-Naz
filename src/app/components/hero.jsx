@@ -88,10 +88,17 @@ const Hero = () => {
         {/* SECOND SESSION */}
 
         <div
-          className="lg:flex justify-center items-center
-         w-[100%]  h-[100%] mx-auto 
-        lg:m-auto lg:px-40 lg:mt-10 mt-24 container
-        lg:max-w-7xl"
+          className="flex sm:flex md:flex lg:flex xl:flex
+           justify-center sm:justify-center lg:justify-center 
+           xl:justify-center items-center sm:items-center md:items-center
+           lg:items-center xl:items-center 
+           max-w-7xl sm:max-w-7xl md:max-w-7xl lg:max-w-7xl xl:max-w-7xl
+           w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] xl:w-[100%]
+           h-[100%] sm:h-[100%] md:h-[100%] lg:h-[100%] xl:h-[100%]
+           mx-auto sm:mx-auto md:mx-auto lg:mx-auto
+           xl:mx-auto 
+           m-auto sm:m-auto md:m-auto lg:m-auto xl:m-auto lg:px-40 lg:mt-10 mt-24 container
+           "
         >
           {/*My Image*/}
           <div className="lg:flex items-center justify-center ">
@@ -165,9 +172,11 @@ const Hero = () => {
             {/* CENTER IMAGE 2 */}
 
             <div
-            className="flex items-center justify-center
-           lg:mt-10 mt-5 lg:mb-10 mb-5 lg:ml-20 mx-auto
-           h-[60vh] w-[50vw] container"
+            className="flex 
+            items-center sm:items-center md:items-center lg:items-center
+            xl:items-center justify-center sm:justify-center md:justify-center lg:justify-center xl:justify-center
+            lg:mt-10 mt-5 lg:mb-10 mb-5 lg:ml-20 mx-auto
+            h-[60vh] w-[50vw] container"
             >
               <Image
                 src={"/images/hero-image.png"}
