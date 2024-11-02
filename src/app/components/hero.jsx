@@ -15,11 +15,13 @@ const Hero = () => {
         <div
           className="flex lg:flex items-center lg:items-center justify-center lg:justify-center 
           max-w-7xl sm:max-w-full md:max-w-full lg:max-w-full xl:max-w-full mx-auto lg:mx-auto xl:mx-auto 
-          space-x-4 lg:mt-20 mt-24 container"
+          space-x-4 mt-24 sm:mt-24 md:mt-24 lg:mt-24 xl:mt-24
+          container"
         >
           <h1
-            className="  text-white lg:text-[7vmin] 
-            font-bold text-center"
+            className="  text-white text-[7vmin] 
+            sm:text-[4vmin] md:text-[6vmin] lg:text-[7vmin] xl:text-[7vmin]
+            font-bold text-center container"
           >
             <span className="text-transparent bg-clip-text 
             bg-gradient-to-r from-purple-400 to-pink-600">
@@ -97,7 +99,8 @@ const Hero = () => {
            h-[100%] sm:h-[100%] md:h-[100%] lg:h-[100%] xl:h-[100%]
            mx-auto sm:mx-auto md:mx-auto lg:mx-auto
            xl:mx-auto 
-           m-auto sm:m-auto md:m-auto lg:m-auto xl:m-auto lg:px-40 lg:mt-10 mt-24 container
+           m-auto sm:m-auto md:m-auto lg:m-auto xl:m-auto lg:px-40 
+           mt-10 sm:mt-24 md:mt-24 lg:mt-10 xl:mt-10 container
            "
         >
           {/*My Image*/}
